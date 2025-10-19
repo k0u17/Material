@@ -13,6 +13,7 @@ public class MaterialPlugin extends JavaPlugin {
         Bukkit.getPluginManager().registerEvents(new FireballListener(), this);
         Bukkit.getPluginManager().registerEvents(new TNTListener(), this);
         Bukkit.getPluginManager().registerEvents(new TridentListener(), this);
+        Bukkit.getPluginManager().registerEvents(new BouncyArrowListener(), this);
     }
 
     public static MaterialPlugin getInstance() {
